@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title %> - MyWebsite</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Our Service</h1>
+            <p>learning resources we offer</p>
+        </section>
+
+        <section class="services-section">
+            <div class="service-item">
+                <h2>🎓 Web Development Course</h2>
+                <p>Learn the fundamentals of web development with Node.js and Express.</p>
+                <p>This course covers:</p>
+                <ul>
+                    <li>Server setup with Express</li>
+                    <li>Routing and HTTP methods</li>
+                    <li>Template engines (EJS)</li>
+                    <li>Static file serving</li>
+                </ul>
+                <p><strong>Duration:</strong> 4 weeks | <strong>Level: </strong>Beginner</p>
+            </div>
+            
+            <div class="service-item">
+                <h2>💻 Full-Stack Development</h2>
+                <p>Master both frontend and backend development. Learn: </p>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript</li>
+                    <li>Backend: Node.js, Express, REST APIs</li>
+                    <li>Project structure and best practices</li>
+                    <li>Deployment and production tips</li>
+                </ul>
+                <p><strong>Duration: </strong>12 weeks | <strong>Level: Intermediate</strong></p>
+            </div>
+
+            <div class="service-item">
+                <h2>🚀 Advanced Node.js</h2>
+                <p>Take your Node.js skills to the next level. Topics include:</p>
+                <ul>
+                    <li>Advanced routing patterns</li>
+                    <li>Error handling and middleware</li>
+                    <li>Performance optimization</li>
+                    <li>Real-world project examples</li>
+                </ul>
+                <p><strong>Duration: </strong>8 weeks | <strong>Level:</strong> Advanced</p>
+            </div>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - MyWebsite</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>About US</h1>
+            <p>learn about this educational project</p>
+        </section>
+
+        <section class="content-section">
+            <h2>What is This Project?</h2>
+            <p>This is an educational website built to teach the fundamentals of full-stack web development eith Node.js and Express.</p>
+            <p>It demonstrates:</p>
+            <ul>
+                <li>How to set up an Express.js server</li>
+                <li>How to create routes and handle requests</li>
+                <li>How to use EJS as a templating engine</li>
+                <li>How to organize project structure</li>
+                <li>How to serve static files(CSS,images)</li>
+                <li>How to use EJS partials for reusable components</li>
+            </ul>
+        </section>
+        <section class="content-section">
+            <h2>Why Express + EJS?</h2>
+                <p><strong>Express.js</strong> is a lightweight web framework that makes it easy to:</p>
+                <ul>
+                    <li>Define routes (URLs that users can visit)</li>
+                    <li>Handle HTTP requests</li>
+                    <li>Serve files and data</li>
+                </ul>
+                <p><strong>EJS (Embedded JavaScript)</strong> is a templating engine that allows:</p>
+                <ul>
+                    <li>Dynamic HTML generation</li>
+                    <li>Reusable components with partials</li>
+                    <li>Easy logic and loops in templates</li>
+                </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>Project Features</h2>
+                <ul>
+                    <li>✅ Responsive Navigation Bar</li>
+                    <li>✅ Multiple Pages with Unique Content</li>
+                    <li>✅ Clean CSS Styling</li>
+                    <li>✅ EJS Partials (Navbar, Footer)</li>
+                    <li>✅ 404 Error Page for Unknown Routes</li>
+                    <li>✅ Static File Serving</li>
+                    <li>✅ Clear Comments and Explanations</li>
+                </ul>
+        </section>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

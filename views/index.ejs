@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - MyWebsite</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+   <main class="container">
+        <section class="hero">
+            <h1>Welcome to MyWebsite</h1>
+            <p>This is fully functional website built with Express.js and EJS</p>
+            <p class="subtitles">No database. No authentication. Just clean, simple web development</p>
+        </section> 
+        <section class="features">
+            <h2>Why This Project is Great for learning</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>📁Clean Structure</h3>
+                    <p>Organized folders for views, routes, and static files</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔗Routing</h3>
+                    <p>Simple GET routes to different pages</p>
+                </div>
+                <div class="feature-card">
+                    <h3>✨EJS Templating</h3>
+                    <p>Reusable components with partials</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎨Responsive Design</h3>
+                    <p>CSS that works on all screen sizes</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+                <h4>Ready to learn?</h4>
+                <p>Check out the <a href="/about">About</a> page to learn more about this project</p>
+        </section>
+   </main>
+
+   <%- include('partials/footer') %>
+</body>
+</html>

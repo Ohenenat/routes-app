@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - MyWebsite</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <main class="container">
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us</p>
+        </section>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h2>How to Reach Us</h2>
+                <div class="info-item">
+                    <h3>📧 Email</h3>
+                    <p><a href="Ohene@outlook.com">Ohene@outlook.com</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>📱 Phone</h3>
+                    <p><a href="+233537875709">+233 (537) 875-706</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>📍 Address</h3>
+                    <p>123 Web Street <br>
+                    Tech City, TC 12345 <br>
+                    United States</p>
+                </div>
+                <div class="info-item">
+                    <h3>🕐 Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM <br>
+                    Saturday: 10:00 AM - 4:00 PM <br>
+                    Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="contact-message">
+                <h2>Send us a Message</h2>
+                <p>Leave a Message</p>
+            </div>
+
+        </section>
+    </main>
+    <%- (include("partials/footer"))  %>
+</body>
+</html>

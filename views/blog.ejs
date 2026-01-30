@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - MyWebsite</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Blog</h1>
+            <p>Articles and tutorials about web development</p>
+        </section>
+        <section class="blog-section">
+            <article class="blog-post">
+                <h2>Getting Started with Express.js</h2>
+                <p class="blog-meta">Published on January 15, 2026 by Developer</p>
+                <p>Express.js is one of the most popular web frameworks for Node.js. In this article, we'll explore the basics of setting up an Express server, defining routes, and serving static files.</p>
+                <p>Key topics covered:</p>
+                <ul>
+                    <li>What is Express.js and why use it?</li>
+                    <li>Setting up your first Express server</li>
+                    <li>Understanding middleware</li>
+                    <li>Creating routes for different URLs</li>
+                    <li>Serving static files (CSS, images)</li>
+                </ul>
+                <p><a href="#" class="read-more">Read More</a></p>
+            </article>
+            <article class="blog-post">
+                <h2>EJS Templating Engine Explained</h2>
+                <p class="blog-meta">Published on January 10, 2026 by Developer</p>
+                <p>EJS allows you to generate HTML dynamically with plain JavaScript. It's perfect for beginners because the syntax is simple and familiar if you know JavaScript.</p>
+                <p>In this tutorial, we cover:</p>
+                <ul>
+                    <li>What is EJS and how does it work?</li>
+                    <li>Embedding JavaScript in HTML</li>
+                    <li>Using EJS partials for reusable components</li>
+                    <li>Passing data to EJS templates</li>
+                    <li>Common EJS tags and syntax</li>
+                </ul>
+                <p><a href="#" class="read-more">Read More</a></p>
+            </article>
+            <article class="blog-post">
+                <h2>Building Responsive Websites with CSS</h2>
+                <p class="blog-meta">Published on January 5, 2026 by Developer</p>
+                <p>Creating responsive websites is essential in 2026. Learn how to build websites that look great on phones, tablets, and desktops without using heavy CSS frameworks.</p>
+                <p>Topics include:</p>
+                <ul>
+                    <li>Mobile-first design philosophy</li>
+                    <li>CSS Flexbox for layouts</li>
+                    <li>Media queries for responsive design</li>
+                    <li>CSS best practices</li>
+                    <li>Performance optimization tips</li>
+                </ul>
+                <p><a href="#" class="read-more">Read More</a></p>
+            </article>
+        </section>
+    </main>
+    <%- include('partials/footer')  %>
+</body>
+</html>
