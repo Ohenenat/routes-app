@@ -238,3 +238,27 @@ body {
     color: #555;
     line-height: 1.8;
 }
+.contact-info a{
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-info a:hover{
+    color: #2980b9;
+    text-decoration: underline;
+}
+.contact-message {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.contact-message h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+.contact-message p{
+    margin-bottom: 15px;
+    color: #555;
+}
